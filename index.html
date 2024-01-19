@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>CLICK LE CLOWN</title>
+</head>
+
+<body>
+    <header>
+        <h1>Click Le Clown</h1>
+        <div id="score"></div>
+    </header>
+    <main>
+        <div id="menu">
+            <button onclick="startParty(1)" id="easy">Easy</button>
+            <button onclick="startParty(2)" id="medium">Medium</button>
+            <button onclick="startParty(3)" id="hard">Hard</button>
+        </div>
+        <img onclick="attack(this)" id="clown" src="./asset/image/clown.png" alt="clown">
+    
+    <div id="enGameScreen">
+        <h2></h2>
+        <p id="scores"></p>
+        <button onclick="replayGame()"  id="replay">REJOUER</button>
+    </div>
+    </main>
+    <script src="./asset/js/main.js"></script>
+</body>
+
+</html>
