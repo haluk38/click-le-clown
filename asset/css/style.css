@@ -14,7 +14,7 @@ body {
 }
 
 main{
-    height: 90vh;
+    height: 80vh;
     position: relative;
 }
 #clown {
@@ -86,7 +86,6 @@ h1{
 #menu{
     display: flex;
     justify-content: center;
-    padding-top: 20%;
     gap: 5%;
 }
 #replay{

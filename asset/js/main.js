@@ -43,6 +43,7 @@ function startParty(difficult) {
         let randY = randomize(0, (mainHeight - clown.clientHeight))
         clown.style.transform = `translate(${randX}px,${randY}px)`
         clown.style.transition = `transform linear 1s`
+        console.log(randX,randY);
       }, time);
       
 }
