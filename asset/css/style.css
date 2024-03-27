@@ -86,6 +86,11 @@ h1{
 #menu{
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     gap: 5%;
 }
 #replay{
@@ -109,5 +114,13 @@ h1{
         margin-right: 25%;
     }
  }
+
+ #menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 
